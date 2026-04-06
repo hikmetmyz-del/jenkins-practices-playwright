@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('verify links under ul tag are displayed and enabled', async ({ page }) => {
   // Step 1: Browser is opened via Playwright test runner
   // Step 2: Navigate to the page
-  await page.goto('https://practice.cydeo.com/');
+  await page.goto('https://the-internet-5chk.onrender.com/');
 
   // Step 3: Check the title
   await expect(page).toHaveTitle('Practice');
