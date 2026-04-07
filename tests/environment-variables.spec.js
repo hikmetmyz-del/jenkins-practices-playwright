@@ -18,5 +18,8 @@ test('Bypass authentication by encoding the credentials base64 format', async ({
     page.goto("https://the-internet-5chk.onrender.com/basic_auth");
 
     await page.waitForTimeout(3000);
+    console.log(`Username is: ${process.env.PRACTICE_USERNAME}`);
+    console.log(`Password is: ${process.env.PRACTICE_PASSWORD}`);
+
 
 });
